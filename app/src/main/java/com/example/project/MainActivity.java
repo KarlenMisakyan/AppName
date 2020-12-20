@@ -28,10 +28,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.sign_in_btn) {
-            startActivity(new Intent(this, SignIn.class));
-        } else if (v.getId() == R.id.sign_up_btn) {
-            startActivity(new Intent(this, SignUpPage.class));
+        switch (v.getId()) {
+            case R.id.sign_in_btn:
+                startActivity(new Intent(this, SignIn.class));
+                break;
+            case R.id.sign_up_btn:
+                startActivity(new Intent(this, SignUpPage.class));
+                break;
+            case R.id.vk_auth:
+                //TODOvk
+                break;
+            case R.id.facebook_auth:
+                //TODO
+                break;
         }
     }
 }

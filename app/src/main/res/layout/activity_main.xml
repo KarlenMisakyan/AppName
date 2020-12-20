@@ -109,11 +109,11 @@
         android:gravity="center_horizontal"
         android:layout_marginTop="20sp">
 
-        <!--<ImageButton
+        <ImageButton
             android:id="@+id/vk_auth"
             android:layout_width="33sp"
             android:layout_height="33sp"
-            android:background="@drawable/ic_vk_social_logotype"/>-->
+            android:background="@drawable/ic_vk_social_logotype"/>
 
         <ImageButton
             android:id="@+id/facebook_auth"
