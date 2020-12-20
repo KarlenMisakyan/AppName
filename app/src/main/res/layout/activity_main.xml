@@ -69,13 +69,13 @@
             android:id="@+id/sign_up_btn"
             android:layout_width="226sp"
             android:layout_height="56sp"
-            android:textAllCaps="false"
             android:layout_gravity="center"
-            android:layout_marginTop="30sp"
+            android:layout_marginTop="20sp"
             android:background="@drawable/radius_btn"
             android:fontFamily="@font/overpass_mono"
             android:gravity="center"
             android:text="@string/sign_up"
+            android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -96,6 +96,7 @@
             android:layout_marginTop="25dp"
             android:fontFamily="@font/overpass_mono"
             android:text="@string/login_with"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
 
