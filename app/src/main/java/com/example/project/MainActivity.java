@@ -36,10 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, SignUpPage.class));
                 break;
             case R.id.vk_auth:
-                //TODOvk
-                break;
             case R.id.facebook_auth:
-                //TODO
+                Toast.makeText(MainActivity.this, "Временно недоступно!", Toast.LENGTH_LONG).show();
                 break;
         }
     }
